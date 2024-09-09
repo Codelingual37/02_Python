@@ -42,11 +42,11 @@ if player == "rock":
         print("Computer: Rock")
         print(rock)
         print("It's a draw!")
-    if computer == "paper":
+    elif computer == "paper":
         print("Computer: Paper")
         print(paper)
         print(random.choice(lose))
-    if computer == "scissors":
+    else:
         print("Computer: Scissors")
         print(scissors)
         print(random.choice(win))
@@ -57,11 +57,11 @@ elif player == "paper":
         print("Computer: Paper")
         print(paper)
         print("It's a draw!")
-    if computer == "scissors":
+    elif computer == "scissors":
         print("Computer: Scissors")
         print(scissors)
         print(random.choice(lose))
-    if computer == "rock":
+    else:
         print("Computer: Rock")
         print(rock)
         print(random.choice(win))
@@ -72,11 +72,11 @@ elif player == "scissors":
         print("Computer: Scissors")
         print(scissors)
         print("It's a draw!")
-    if computer == "rock":
+    elif computer == "rock":
         print("Computer: Rock")
         print(rock)
         print(random.choice(lose))
-    if computer == "paper":
+    else:
         print("Computer: Paper")
         print(paper)
         print(random.choice(win))
