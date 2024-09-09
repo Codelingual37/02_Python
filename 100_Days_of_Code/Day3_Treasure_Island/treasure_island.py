@@ -26,7 +26,7 @@ print("Your mission is to find the treasure.")
 print('''You walk along the path and find yourself at a crossroad. The one to the right 
 leads to a small, peaceful-looking shack, and the one to the left leads to a dark 
 forest.''')
-path = input("Which path do you want to take (left or right)? ")
+path = input("Which path do you want to take (left or right)? ").lower()
 if path != "left":
     if path == "right":
         print('''
@@ -66,7 +66,7 @@ else:
 make sure to contain yourself not to eat the shrooms you see along the way. Don't
 lick any frogs. This is a game for a coding project; keep it classy. Eventually, you
 come to a large lake.''')
-    action = input("Do you swim or do you chill and see what magically happens next ('swim' or 'wait')? ")
+    action = input("Do you swim or do you chill and see what magically happens next ('swim' or 'wait')? ").lower()
     if action != "wait":
         if action == "swim":
             print('''
@@ -90,7 +90,7 @@ have appeared behind you, one red, one yellow, and one blue. (Are you sure you d
 touch those shrooms?) Anyway, after you finish gawking and questioning reality you
 come to the obvious conclusion that you have to make a choice.''')
         door = input('''Do you choose the red pill... I mean, door... the blue door, or the yellow door?
-Again, 'red', 'blue', or 'yellow'? What's it going to be, Neo? ''')
+Again, 'red', 'blue', or 'yellow'? What's it going to be, Neo? ''').lower()
         if door != "yellow":
             if door == "red":
                 print('''
