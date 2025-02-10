@@ -1,0 +1,1 @@
+xvfb-run python3 main.py        // This is to work with a graphical window, like Turtle
