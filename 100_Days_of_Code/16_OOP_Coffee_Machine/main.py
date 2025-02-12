@@ -1,7 +1,3 @@
-from turtle import *
-
-timmy = Turtle()
-print(timmy)
-my_screen = Screen()
-print(my_screen.canvheight)
-my_screen.mainloop()
+from menu import Menu
+from coffee_maker import CoffeeMaker
+from money_machine import MoneyMachine
