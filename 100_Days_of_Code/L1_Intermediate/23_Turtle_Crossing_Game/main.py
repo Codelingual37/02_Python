@@ -29,7 +29,7 @@ while game_is_on:
         player.return_to_start()
         cars.increase_car_speed()
     for car in cars.cars:
-        if player.distance(car) < 30:
+        if player.distance(car) < 25:
             game_is_on = False
             score.game_over()
 

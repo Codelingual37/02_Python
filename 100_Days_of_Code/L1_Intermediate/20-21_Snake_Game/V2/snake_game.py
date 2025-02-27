@@ -30,7 +30,7 @@ while game_on:
 	if snake.head.distance(food) < 15:
 		food.refresh()
 		snake.extend()
-		score.update_score()
+		score.increase_score()
 
 	for seg in snake.snake[1:]:
 		if snake.head.distance(seg) < 5:
