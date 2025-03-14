@@ -2,13 +2,12 @@ from tkinter import *
 
 window = Tk()
 window.title("Miles to Km Converter")
-window.minsize(width=200, height=200)
 window.config(padx=20, pady=20)
 
 label_one = Label(text="is equal to", font=("Arial", 15, "bold"))
 label_one.grid(column=0, row=1)
 
-input = Entry()
+input = Entry(width=9)
 input.grid(column=1, row=0)
 
 label_two = Label(text="0", font=("Arial", 15, "bold"))
