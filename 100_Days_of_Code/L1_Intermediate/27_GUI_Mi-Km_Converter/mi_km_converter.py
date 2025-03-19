@@ -14,7 +14,7 @@ label_two = Label(text="0", font=("Arial", 15, "bold"))
 label_two.grid(column=1, row=1)
 
 def calculate():
-	result = str(int(input.get()) * 1.609)
+	result = int(input.get()) * 1.609
 	label_two.config(text=f"{result}")
 
 button = Button(text="Calculate", command=calculate)
